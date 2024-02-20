@@ -46,3 +46,12 @@
 .service-margin-left{
     margin-left: 40px;
 }
+@media  only screen and (max-width: 400px){
+    .one-service{
+        width: 300px;
+        height: max-content;
+    }
+    .one-service-img img{
+        width: 260px;
+    }
+}

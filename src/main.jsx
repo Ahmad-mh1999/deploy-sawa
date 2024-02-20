@@ -5,7 +5,7 @@ import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter ,Routes,Route } from 'react-router-dom';
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename='/sawa' >
+  <BrowserRouter basename='/deploy-sawa' >
     <React.StrictMode>
       <Routes>
         <Route path='/*'  element={<App />} />

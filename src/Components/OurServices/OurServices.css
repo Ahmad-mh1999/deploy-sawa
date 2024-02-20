@@ -46,4 +46,10 @@
         position: relative;
         left: 50px;
     }
+    
+}
+@media  only screen and (max-width: 400px){
+    .services .left-container{
+            left: 15px !important;
+        }
 }
